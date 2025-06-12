@@ -1,0 +1,79 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+div#wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+div#menu-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+}
+
+div#menu {
+  width: 900px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+div#logo {
+  font-family: 'Passion One', sans-serif;
+  font-size: 2rem;
+}
+
+div#main-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+div#main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20vh;
+}
+
+div#main p {
+  font-size: 18px;
+}
+
+div#image-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+img {
+  max-width: 90%;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+}
+
+footer > * {
+  font-size: 14px;
+}
+
+footer p#footer-text > a {
+  text-decoration: none;
+  color: #000;
+}
+
+
+/*# sourceMappingURL=main.d8bbc7ae24884a2a17a7.css.map*/
