@@ -2,6 +2,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
 }
 
 div#wrapper {
@@ -38,6 +39,10 @@ div#main {
   flex-direction: column;
   align-items: center;
   margin-bottom: 20vh;
+}
+
+div#main p {
+  font-size: 18px;
 }
 
 div#image-container {
