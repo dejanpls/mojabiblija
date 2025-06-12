@@ -40,6 +40,16 @@ div#main {
   margin-bottom: 20vh;
 }
 
+div#image-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+img {
+  max-width: 90%;
+}
+
 footer {
   display: flex;
   justify-content: center;
