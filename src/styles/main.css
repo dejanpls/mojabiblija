@@ -16,7 +16,6 @@ div#menu-container {
   justify-content: center;
   align-items: center;
   height: 50px;
-  font-size: 24px;
 }
 
 div#menu {
@@ -24,6 +23,11 @@ div#menu {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+div#logo {
+  font-family: 'Passion One', sans-serif;
+  font-size: 2rem;
 }
 
 div#main-container {
@@ -60,7 +64,10 @@ footer {
   justify-content: center;
   align-items: center;
   height: 40px;
-  border: 1px solid blue;
+}
+
+footer > * {
+  font-size: 14px;
 }
 
 footer p#footer-text > a {
